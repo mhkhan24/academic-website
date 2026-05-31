@@ -3,121 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research | Alex Morgan</title>
+    <title>Muhammad Haroon Khan | Research Areas</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div id="scroll-progress"></div>
-    <nav class="navbar">
-        <div class="nav-container">
-            <button class="sidebar-toggle" aria-label="Toggle Sidebar"><i class="fas fa-bars"></i></button>
-            <a href="index.html" class="nav-brand">Alex Morgan</a>
-            <button class="mobile-menu-toggle" aria-label="Toggle Navigation Menu"><i class="fas fa-ellipsis-v"></i></button>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="research.html" class="nav-link active">Research</a></li>
-                <li><a href="publications.html" class="nav-link">Publications</a></li>
-                <li><a href="cv.html" class="nav-link">CV</a></li>
-                <li><a href="awards.html" class="nav-link">Awards</a></li>
-                <li><a href="teaching.html" class="nav-link">Teaching</a></li>
-                <li><a href="projects.html" class="nav-link">Projects</a></li>
-                <li><a href="news.html" class="nav-link">News</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
-                <li><button id="theme-toggle" aria-label="Toggle Dark Mode"><i class="fas fa-moon"></i></button></li>
-            </ul>
-        </div>
-    </nav>
 
+    <!-- Outer Dual Panel Container (Matches index.html and cv.html) -->
     <div class="site-container">
+        
+        <!-- LEFT PANEL (Identical Light Gray Sidebar) -->
         <aside class="sidebar">
-            <div class="sidebar-sticky">
-                <div class="profile-container"><div class="profile-img-placeholder"><i class="fas fa-user-graduate"></i></div></div>
-                <h1 class="sidebar-name">Alex Morgan</h1>
-                <p class="sidebar-title">PhD Candidate</p>
-                <p class="sidebar-org">Department of Computer Science</p>
-                <p class="sidebar-univ">University of Excellence</p>
-                <hr class="sidebar-divider">
-                <div class="sidebar-info">
-                    <p><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</p>
-                    <p><i class="fas fa-envelope"></i> <a href="mailto:alex.morgan@university.edu">alex.morgan@univ.edu</a></p>
-                </div>
-                <div class="sidebar-socials">
-                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://scholar.google.com" target="_blank"><i class="fab fa-google"></i></a>
-                </div>
+            <div class="profile-container">
+                <img src="assets/profile.jpg" alt="Muhammad Haroon Khan Profile Image">
             </div>
+            
+            <h1 class="sidebar-name">Muhammad Haroon Khan</h1>
+            
+            <ul class="sidebar-info-list">
+                <li><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</li>
+                <li><i class="fas fa-university"></i> University of Houston</li>
+                <li><i class="fas fa-envelope"></i> <a href="mailto:haroonkhan1408@gmail.com">haroonkhan1408@gmail.com</a></li>
+                <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                <li><i class="fab fa-github"></i> <a href="https://github.com/mhkhan13" target="_blank">GitHub</a></li>
+                <li><i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com" target="_blank">Google Scholar</a></li>
+                <li><i class="fab fa-researchgate"></i> <a href="https://researchgate.net" target="_blank">ResearchGate</a></li>
+                <li><i class="fas fa-id-card"></i> <a href="https://orcid.org" target="_blank">ORCID</a></li>
+            </ul>
         </aside>
 
-        <main class="main-content">
-            <section class="content-section fade-in">
-                <h2 class="section-title">Research Areas</h2>
-                <p class="section-intro">My collective core research paradigm operates at the nexus of high-speed computation and reliable deployment constraints. Below are the specific tracking domains I investigate within our lab.</p>
+        <!-- RIGHT PANEL (Main Research Track View Dashboard) -->
+        <main class="main-panel-right">
+            
+            <!-- Dark Gray Top Inline Navbar -->
+            <nav class="navbar-right-block">
+                <ul class="nav-menu-row">
+                    <li><a href="index.html" class="nav-link-item">Home</a></li>
+                    <li><a href="research.html" class="nav-link-item active">Research Areas</a></li>
+                    <li><a href="publications.html" class="nav-link-item">Publications</a></li>
+                    <li><a href="cv.html" class="nav-link-item">CV</a></li>
+                    <li><a href="awards.html" class="nav-link-item">Awards & Honors</a></li>
+                    <li><a href="teaching.html" class="nav-link-item">Teaching</a></li>
+                </ul>
+            </nav>
+
+            <!-- Content Area Framing mirroring image_6db719.png -->
+            <div class="main-content-area">
                 
-                <div class="research-grid">
-                    <div class="research-card">
-                        <div class="research-img-placeholder"><i class="fas fa-brain"></i></div>
-                        <div class="research-card-content">
-                            <h4>Safe Reinforcement Learning</h4>
-                            <p>Developing structural control barrier functions derived from dynamic equations to guarantee sample convergence within deep policy systems while structurally minimizing runtime hazard violations.</p>
-                            <a href="projects.html" class="btn btn-secondary btn-sm">Learn More</a>
+                <section class="content-section">
+                    <h2 class="section-title" style="font-family: 'Times New Roman', Times, serif; font-size: 2.2rem; margin-bottom: 0.5rem;">Research Areas</h2>
+                    <p style="color: #333333; margin-bottom: 1rem;">My research takes an interdisciplinary approach to experimental condensed matter physics and energy materials systems—integrating advanced synthesis parameters with state-of-the-art structural and chemical characterization. The goal is to develop and optimize high-efficiency material classes that enhance performance boundaries to solve critical global energy and sustainability challenges.</p>
+                    <p style="color: #666666; font-style: italic; margin-bottom: 2rem;">My research currently focuses on three main areas:</p>
+
+                    <!-- ================= AREA CARD 1: THERMOELECTRICS ================= -->
+                    <div class="cv-wide-card" style="display: flex; gap: 2rem; border: 1px solid #dddddd; border-radius: 6px; padding: 1.5rem; margin-bottom: 1.5rem; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05); position: relative;">
+                        <!-- Graphical Icon Layer -->
+                        <div style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #cc0000; font-size: 3rem;">
+                            <i class="fas fa-fire-alt"></i>
+                        </div>
+                        <div style="flex-grow: 1;">
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; width: 100%;">
+                                <h4 style="font-size: 1.25rem; font-weight: 600; color: #000000; margin-bottom: 0.5rem;">Advanced Thermoelectric Systems</h4>
+                                <span style="font-size: 0.8rem; color: #666666; font-weight: 500; letter-spacing: 0.02em;">Doping Engineering • Waste Heat Recovery • Carrier Transport</span>
+                            </div>
+                            <ul style="list-style-type: disc; padding-left: 1.25rem; font-size: 0.92rem; color: #333333; display: flex; flex-direction: column; gap: 0.3rem; margin-top: 0.5rem;">
+                                <li>Investigating high-performance $Mg_3(Sb,Bi)_2$-based compounds tailored specifically for low-grade industrial waste heat extraction configurations.</li>
+                                <li>Optimizing structural phase purity bounds through transition-metal and high-manganese chemical doping adjustments.</li>
+                                <li>Manipulating atomic defect states and point-defect scattering arrays to decouple electrical and thermal material transport fields.</li>
+                                <li>Applications: Solid-state thermal generation, industrial emission harvesting, autonomous grid scaling, and localized energy conversion devices.</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="research-card">
-                        <div class="research-img-placeholder"><i class="fas fa-microchip"></i></div>
-                        <div class="research-card-content">
-                            <h4>Hardware-Aware Optimization</h4>
-                            <p>Investigating multi-bit dynamic quantization configurations across neural pipelines allowing direct compilation onto mixed-signal localized processing chips without sacrificing inference performance metrics.</p>
-                            <a href="projects.html" class="btn btn-secondary btn-sm">Learn More</a>
+
+                    <!-- ================= AREA CARD 2: SUPERCONDUCTIVITY ================= -->
+                    <div class="cv-wide-card" style="display: flex; gap: 2rem; border: 1px solid #dddddd; border-radius: 6px; padding: 1.5rem; margin-bottom: 1.5rem; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                        <div style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #2563eb; font-size: 3rem;">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div style="flex-grow: 1;">
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; width: 100%;">
+                                <h4 style="font-size: 1.25rem; font-weight: 600; color: #000000; margin-bottom: 0.5rem;">High-Tc Superconducting Materials</h4>
+                                <span style="font-size: 0.8rem; color: #666666; font-weight: 500; letter-spacing: 0.02em;">Advanced TEM • Microstructural Characterization • Defect Mapping</span>
+                            </div>
+                            <ul style="list-style-type: disc; padding-left: 1.25rem; font-size: 0.92rem; color: #333333; display: flex; flex-direction: column; gap: 0.3rem; margin-top: 0.5rem;">
+                                <li>Characterizing localized grain boundary layouts and atomic defects across complex $Hg-1223$ high-temperature single crystals.</li>
+                                <li>Utilizing high-resolution Transmission Electron Microscopy (TEM) and Selected Area Electron Diffraction (SAED) to map crystal orientation.</li>
+                                <li>Correlating nanoscale phase composition variances with macroscale critical current densities and flux pinning mechanisms.</li>
+                                <li>Applications: Lossless power grid delivery grids, high-field magnetic resonance machinery, and foundational quantum computing frameworks.</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="research-card">
-                        <div class="research-img-placeholder"><i class="fas fa-network-wired"></i></div>
-                        <div class="research-card-content">
-                            <h4>Decentralized Multi-Agent Swarms</h4>
-                            <p>Analyzing asynchronous algebraic consensus algorithms applied to heterogeneous aerial and terrestrial physical agents running localized state tracking under communication dropouts.</p>
-                            <a href="projects.html" class="btn btn-secondary btn-sm">Learn More</a>
+
+                    <!-- ================= AREA CARD 3: ELECTROCATALYSIS ================= -->
+                    <div class="cv-wide-card" style="display: flex; gap: 2rem; border: 1px solid #dddddd; border-radius: 6px; padding: 1.5rem; margin-bottom: 1.5rem; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                        <div style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #16a34a; font-size: 3rem;">
+                            <i class="fas fa-atom"></i>
+                        </div>
+                        <div style="flex-grow: 1;">
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; width: 100%;">
+                                <h4 style="font-size: 1.25rem; font-weight: 600; color: #000000; margin-bottom: 0.5rem;">AI & Advanced Electrocatalysis for Sustainability</h4>
+                                <span style="font-size: 0.8rem; color: #666666; font-weight: 500; letter-spacing: 0.02em;">Green Hydrogen • Water-Splitting • XRD Structural Property Mapping</span>
+                            </div>
+                            <ul style="list-style-type: disc; padding-left: 1.25rem; font-size: 0.92rem; color: #333333; display: flex; flex-direction: column; gap: 0.3rem; margin-top: 0.5rem;">
+                                <li>Synthesizing low-cost, noble-metal-free structured catalysts optimized for high-yield electrochemical water-splitting.</li>
+                                <li>Tracking structural stability and evolution parameters using synchronized X-ray Diffraction (XRD) and elemental map tracing.</li>
+                                <li>Evaluating oxygen evolution reaction (OER) enhancements using dual-doping modifications (such as synergistic sulfur-selenium incorporation).</li>
+                                <li>Applications: Industrial water electrolyzers, sustainable hydrogen fuel production, and clean carbon reduction technologies.</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="research-card">
-                        <div class="research-img-placeholder"><i class="fas fa-eye"></i></div>
-                        <div class="research-card-content">
-                            <h4>Robust Vision-Language-Action</h4>
-                            <p>Constructing multi-modal topological representation models mapping high-level user intent vectors into sparse, executable actuation arrays across multi-joint robotic structures.</p>
-                            <a href="projects.html" class="btn btn-secondary btn-sm">Learn More</a>
-                        </div>
+                </section>
+
+                <!-- ================= FUNDING & COLLABORATIONS SECTION ================= -->
+                <section class="content-section" style="margin-top: 4rem;">
+                    <h3 class="section-title" style="font-family: 'Times New Roman', Times, serif; font-size: 1.6rem; border-bottom: 1px solid #dddddd; padding-bottom: 0.5rem; margin-bottom: 1rem;">Funding and Collaborations</h3>
+                    <p style="font-size: 0.9rem; color: #555555; margin-bottom: 1.5rem;">Selected organizations and institutional bodies that have supported, backed, or partnered within my research tracks. For further specific competitive funding breakdowns, see <a href="awards.html" style="color: #2563eb; text-decoration: underline;">Awards & Honors</a>.</p>
+                    
+                    <!-- Full Width Flex Alignment Container for Institutional Icon Badges -->
+                    <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; gap: 2rem; padding: 1rem 0; filter: grayscale(100%); opacity: 0.75; transition: opacity 0.3s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.75'">
+                        <!-- University of Houston Institutional Badge -->
+                        <div style="font-weight: 700; font-family: 'Times New Roman', serif; font-size: 1.1rem; color: #cc0000; text-align: center;"><i class="fas fa-university" style="display:block; font-size:1.5rem; margin-bottom:0.25rem;"></i>UH / TcSUH</div>
+                        <!-- US Dept of Energy Representation -->
+                        <div style="font-weight: 600; font-size: 0.95rem; color: #002f6c; text-align: center;"><i class="fas fa-charging-station" style="display:block; font-size:1.5rem; margin-bottom:0.25rem;"></i>U.S. DOE</div>
+                        <!-- Higher Education Commission Representation -->
+                        <div style="font-weight: 600; font-size: 0.95rem; color: #115e59; text-align: center;"><i class="fas fa-graduation-cap" style="display:block; font-size:1.5rem; margin-bottom:0.25rem;"></i>HEC Pakistan</div>
+                        <!-- Energy Leadership Framework -->
+                        <div style="font-weight: 600; font-size: 0.95rem; color: #0f766e; text-align: center;"><i class="fas fa-leaf" style="display:block; font-size:1.5rem; margin-bottom:0.25rem;"></i>TEX-E Alliance</div>
                     </div>
-                    <div class="research-card">
-                        <div class="research-img-placeholder"><i class="fas fa-shield-alt"></i></div>
-                        <div class="research-card-content">
-                            <h4>Adversarial Defenses at Edge</h4>
-                            <p>Evaluating systematic bounds on white-box input perturbation schemes targeting physical perceptual layers, developing geometric smoothing defenses to insulate structural classifiers.</p>
-                            <a href="projects.html" class="btn btn-secondary btn-sm">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="research-card">
-                        <div class="research-img-placeholder"><i class="fas fa-cogs"></i></div>
-                        <div class="research-card-content">
-                            <h4>Adaptive Non-Stationary Control</h4>
-                            <p>Applying runtime sliding-mode filtering heuristics onto active neural system feedback components to secure trajectory accuracy within volatile fluid mechanical mediums.</p>
-                            <a href="projects.html" class="btn btn-secondary btn-sm">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                </section>
+                
+            </div>
         </main>
+        
     </div>
 
-    <footer class="site-footer">
-        <div class="footer-container">
-            <p>&copy; <span id="year"></span> Alex Morgan. All Rights Reserved.</p>
-            <button id="back-to-top" aria-label="Back to Top"><i class="fas fa-arrow-up"></i></button>
-        </div>
-    </footer>
-    <script src="assets/js/script.js"></script>
 </body>
 </html>
