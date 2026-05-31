@@ -15,10 +15,10 @@
     <!-- Outer Dual Panel Container (Matches index.html and cv.html) -->
     <div class="site-container">
         
-        <!-- LEFT PANEL (Identical Light Gray Sidebar) -->
+        <!-- LEFT PANEL (Fixed Light Gray Sidebar with Cleaned Photo Container) -->
         <aside class="sidebar">
-            <div class="profile-container">
-                <img src="assets/profile.jpg" alt="Muhammad Haroon Khan Profile Image">
+            <div class="profile-container" style="width: 150px; height: 150px; margin-bottom: 1.5rem; overflow: hidden; border-radius: 50%;">
+                <img src="assets/profile.png" alt="Profile" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
             </div>
             
             <h1 class="sidebar-name">Muhammad Haroon Khan</h1>
@@ -26,7 +26,7 @@
             <ul class="sidebar-info-list">
                 <li><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</li>
                 <li><i class="fas fa-university"></i> University of Houston</li>
-                <li><i class="fas fa-envelope"></i> <a href="mailto:haroonkhan1408@gmail.com">haroonkhan1408@gmail.com</a></li>
+                <li><i class="fas fa-envelope"></i> <a href="mailto:mhkhan24@cougarnet.uh.edu">mhkhan13@uh.edu</a></li>
                 <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
                 <li><i class="fab fa-github"></i> <a href="https://github.com/mhkhan13" target="_blank">GitHub</a></li>
                 <li><i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com" target="_blank">Google Scholar</a></li>
@@ -70,7 +70,7 @@
                                 <span style="font-size: 0.8rem; color: #666666; font-weight: 500; letter-spacing: 0.02em;">Doping Engineering • Waste Heat Recovery • Carrier Transport</span>
                             </div>
                             <ul style="list-style-type: disc; padding-left: 1.25rem; font-size: 0.92rem; color: #333333; display: flex; flex-direction: column; gap: 0.3rem; margin-top: 0.5rem;">
-                                <li>Investigating high-performance $Mg_3(Sb,Bi)_2$-based compounds tailored specifically for low-grade industrial waste heat extraction configurations.</li>
+                                <li>Investigating high-performance Mg<sub>3</sub>(Sb,Bi)<sub>2</sub>-based compounds tailored specifically for low-grade industrial waste heat extraction configurations.</li>
                                 <li>Optimizing structural phase purity bounds through transition-metal and high-manganese chemical doping adjustments.</li>
                                 <li>Manipulating atomic defect states and point-defect scattering arrays to decouple electrical and thermal material transport fields.</li>
                                 <li>Applications: Solid-state thermal generation, industrial emission harvesting, autonomous grid scaling, and localized energy conversion devices.</li>
@@ -85,11 +85,11 @@
                         </div>
                         <div style="flex-grow: 1;">
                             <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; width: 100%;">
-                                <h4 style="font-size: 1.25rem; font-weight: 600; color: #000000; margin-bottom: 0.5rem;">High-Tc Superconducting Materials</h4>
+                                <h4 style="font-size: 1.25rem; font-weight: 600; color: #000000; margin-bottom: 0.5rem;">High-T<sub>c</sub> Superconducting Materials</h4>
                                 <span style="font-size: 0.8rem; color: #666666; font-weight: 500; letter-spacing: 0.02em;">Advanced TEM • Microstructural Characterization • Defect Mapping</span>
                             </div>
                             <ul style="list-style-type: disc; padding-left: 1.25rem; font-size: 0.92rem; color: #333333; display: flex; flex-direction: column; gap: 0.3rem; margin-top: 0.5rem;">
-                                <li>Characterizing localized grain boundary layouts and atomic defects across complex $Hg-1223$ high-temperature single crystals.</li>
+                                <li>Characterizing localized grain boundary layouts and atomic defects across complex Hg-1223 high-temperature single crystals.</li>
                                 <li>Utilizing high-resolution Transmission Electron Microscopy (TEM) and Selected Area Electron Diffraction (SAED) to map crystal orientation.</li>
                                 <li>Correlating nanoscale phase composition variances with macroscale critical current densities and flux pinning mechanisms.</li>
                                 <li>Applications: Lossless power grid delivery grids, high-field magnetic resonance machinery, and foundational quantum computing frameworks.</li>
@@ -122,15 +122,10 @@
                     <h3 class="section-title" style="font-family: 'Times New Roman', Times, serif; font-size: 1.6rem; border-bottom: 1px solid #dddddd; padding-bottom: 0.5rem; margin-bottom: 1rem;">Funding and Collaborations</h3>
                     <p style="font-size: 0.9rem; color: #555555; margin-bottom: 1.5rem;">Selected organizations and institutional bodies that have supported, backed, or partnered within my research tracks. For further specific competitive funding breakdowns, see <a href="awards.html" style="color: #2563eb; text-decoration: underline;">Awards & Honors</a>.</p>
                     
-                    <!-- Full Width Flex Alignment Container for Institutional Icon Badges -->
                     <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; gap: 2rem; padding: 1rem 0; filter: grayscale(100%); opacity: 0.75; transition: opacity 0.3s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.75'">
-                        <!-- University of Houston Institutional Badge -->
                         <div style="font-weight: 700; font-family: 'Times New Roman', serif; font-size: 1.1rem; color: #cc0000; text-align: center;"><i class="fas fa-university" style="display:block; font-size:1.5rem; margin-bottom:0.25rem;"></i>UH / TcSUH</div>
-                        <!-- US Dept of Energy Representation -->
                         <div style="font-weight: 600; font-size: 0.95rem; color: #002f6c; text-align: center;"><i class="fas fa-charging-station" style="display:block; font-size:1.5rem; margin-bottom:0.25rem;"></i>U.S. DOE</div>
-                        <!-- Higher Education Commission Representation -->
                         <div style="font-weight: 600; font-size: 0.95rem; color: #115e59; text-align: center;"><i class="fas fa-graduation-cap" style="display:block; font-size:1.5rem; margin-bottom:0.25rem;"></i>HEC Pakistan</div>
-                        <!-- Energy Leadership Framework -->
                         <div style="font-weight: 600; font-size: 0.95rem; color: #0f766e; text-align: center;"><i class="fas fa-leaf" style="display:block; font-size:1.5rem; margin-bottom:0.25rem;"></i>TEX-E Alliance</div>
                     </div>
                 </section>
