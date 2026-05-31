@@ -3,110 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haroon Khan | Academic Personal Website</title>
-    <meta name="description" content="Academic personal website of Haroon Khan, PhD Candidate in Physics.">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Haroon Khan | Academic Personal Website">
-    <meta property="og:description" content="Academic personal website of Haroon Khan, PhD Candidate.">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Haroon Khan | Academic Personal Website">
+    <title>Muhammad Haroon Khan | Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div id="scroll-progress"></div>
 
-    <nav class="navbar">
-        <div class="nav-container">
-            <button class="sidebar-toggle" aria-label="Toggle Sidebar"><i class="fas fa-bars"></i></button>
-            <a href="index.html" class="nav-brand">Haroon Khan</a>
-            <button class="mobile-menu-toggle" aria-label="Toggle Navigation Menu"><i class="fas fa-ellipsis-v"></i></button>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link active">Home</a></li>
-                <li><a href="research.html" class="nav-link">Research Areas</a></li>
-                <li><a href="publications.html" class="nav-link">Publications</a></li>
-                <li><a href="cv.html" class="nav-link">CV</a></li>
-                <li><a href="awards.html" class="nav-link">Awards & Honors</a></li>
-                <li><a href="teaching.html" class="nav-link">Teaching</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
-                <li><button id="theme-toggle" aria-label="Toggle Dark Mode"><i class="fas fa-moon"></i></button></li>
-            </ul>
-        </div>
-    </nav>
-
+    <!-- Outer Dual Panel Container -->
     <div class="site-container">
+        
+        <!-- LEFT PANEL (Light Gray Background Sidebar) -->
         <aside class="sidebar">
-            <div class="sidebar-sticky">
-                <div class="profile-container">
-                    <div class="profile-img-placeholder">
-                        <i class="fas fa-user-graduate"></i>
-                    </div>
-                </div>
-                <h1 class="sidebar-name">Muhammad Haroon Khan</h1>
-                <p class="sidebar-title">PhD Candidate</p>
-                <p class="sidebar-org">Department of Physics</p>
-                <p class="sidebar-univ">University of Houston</p>
-                
-                <hr class="sidebar-divider">
-                
-                <div class="sidebar-info">
-                    <p><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</p>
-                    <p><i class="fas fa-envelope"></i> <a href="mailto:mhkhan24@cougarnet.uh.edu">mhkhan13@uh.edu</a></p>
-                </div>
-
-                <div class="sidebar-socials">
-                    <a href="https://www.linkedin.com/in/mhkhan13/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="https://scholar.google.com/citations?user=3mEkgmkAAAAJ&hl=en&oi=ao" target="_blank" aria-label="Google Scholar"><i class="fab fa-google"></i></a>
-                    <a href="https://www.researchgate.net/profile/Muhammad-Haroon-Khan-2?ev=hdr_xprfhttps://researchgate.net" target="_blank" aria-label="ResearchGate"><i class="fab fa-researchgate"></i></a>
-                    <a href="https://orcid.org/0009-0004-6501-6991" target="_blank" aria-label="ORCID"><i class="fab fa-orcid"></i></a>
-                </div>
+            <div class="profile-container">
+                <!-- Swap with assets/profile.jpg once uploaded -->
+                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23cccccc'/><text x='50%25' y='55%25' font-size='30' text-anchor='middle' fill='%23ffffff'>Photo</text></svg>" alt="Profile Image">
             </div>
+            
+            <h1 class="sidebar-name">Muhammad Haroon Khan</h1>
+            
+            <!-- Contact & Social Link Rows -->
+            <ul class="sidebar-info-list">
+                <li><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</li>
+                <li><i class="fas fa-university"></i> University of Houston</li>
+                <li><i class="fas fa-envelope"></i> <a href="mailto:mhkhan13@uh.edu">mhkhan13@uh.edu</a></li>
+                <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                <li><i class="fab fa-github"></i> <a href="https://github.com" target="_blank">GitHub</a></li>
+                <li><i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com" target="_blank">Google Scholar</a></li>
+                <li><i class="fab fa-researchgate"></i> <a href="https://researchgate.net" target="_blank">ResearchGate</a></li>
+                <li><i class="fas fa-id-card"></i> <a href="https://orcid.org" target="_blank">ORCID</a></li>
+            </ul>
         </aside>
 
-        <main class="main-content">
-           <!-- About Me Section -->
-            <section class="content-section fade-in">
-                <h2 class="section-title">About me</h2>
-                <p>I am a Ph.D. candidate in the Department of Physics at the University of Houston, working under the supervision of Dr. Shuo Chen. My research takes an interdisciplinary approach, blending advanced microscopy techniques to understand and optimize novel functional materials for superconductivity and thermoelectric applications.</p>
-                <p>Currently, I am in the final phase of my Ph.D. and am actively seeking roles in the energy, thermal, climate, and AI domains.</p>
-                
-                <p style="margin-top: 1.5rem; margin-bottom: 0.5rem;"><strong>My research interests include:</strong></p>
-                <ul class="interests-list" style="margin-bottom: 1.5rem; padding-left: 1.5rem;">
-                    <li>Thermoelectric Materials</li>
-                    <li>Superconductors</li>
-                    <li>Advanced Microscopy Techniques</li>
-                    <li>Thermal Science & Energy Systems</li>
-                    <li>Optimization & AI for Materials</li>
+        <!-- RIGHT PANEL (Main Container Block) -->
+        <main class="main-panel-right">
+            
+            <!-- Dark Gray Top Inline Navbar -->
+            <nav class="navbar-right-block">
+                <ul class="nav-menu-row">
+                    <li><a href="index.html" class="nav-link-item active">Home</a></li>
+                    <li><a href="research.html" class="nav-link-item">Research Areas</a></li>
+                    <li><a href="publications.html" class="nav-link-item">Publications</a></li>
+                    <li><a href="cv.html" class="nav-link-item">CV</a></li>
+                    <li><a href="awards.html" class="nav-link-item">Awards & Honors</a></li>
+                    <li><a href="teaching.html" class="nav-link-item">Teaching</a></li>
                 </ul>
-                
-                <p>If you'd like to collaborate, feel free to get in touch.</p>
-            </section>
+            </nav>
 
-            <!-- Background Section -->
-            <section class="content-section fade-in">
-                <h3 class="section-title">Background</h3>
-                <p>I completed my Master’s degree in Physics before pursuing doctoral research at the University of Houston. My experimental track focuses on processing, structural characterization, and property measurements of high-efficiency materials.</p>
-            </section>
+            <!-- Main Professional Content Block Area -->
+            <div class="main-content-area">
+                
+                <!-- About Me Block -->
+                <section class="content-section">
+                    <h2 class="section-title">About me</h2>
+                    <p>I am a Ph.D. candidate in the Department of Physics at the University of Houston working under the supervision of Dr. Shuo Chen[cite: 1]. My research takes an interdisciplinary approach, blending advanced microscopy techniques to understand and optimize novel functional materials for superconductivity, thermoelectric materials[cite: 1].</p>
+                    
+                    <p><strong>My research interests include:</strong></p>
+                    <ul class="interests-list">
+                        <li>Energy Systems</li>
+                        <li>Waste Heat Recovery</li>
+                        <li>Thermal Engineering</li>
+                        <li>AI for Energy/Sustainability</li>
+                        <li>Optimization</li>
+                    </ul>
+                    
+                    <p>If you'd like to collaborate, feel free to get in touch. I'm always excited about problems that require interdisciplinary approaches.</p>
+                </section>
+
+                <!-- Background Block -->
+                <section class="content-section">
+                    <h3 class="section-title">Background</h3>
+                    <p>I grew up in Pakistan and completed my prior degrees in physics before pursuing graduate study at the University of Houston[cite: 1]. My experimental research track focuses on analyzing structural interfaces, optimizing composition shifts, and monitoring material efficiency phases under thermal stress constraints.</p>
+                </section>
+                
+            </div>
         </main>
+        
     </div>
 
-    <footer class="site-footer">
-        <div class="footer-container">
-            <p>&copy; <span id="year"></span> Haroon Khan. All Rights Reserved.</p>
-            <div class="footer-links">
-                <a href="index.html">Home</a>
-                <a href="research.html">Research</a>
-                <a href="publications.html">Publications</a>
-                <a href="contact.html">Contact</a>
-            </div>
-            <button id="back-to-top" aria-label="Back to Top"><i class="fas fa-arrow-up"></i></button>
-        </div>
-    </footer>
-
-    <script src="assets/js/script.js"></script>
 </body>
 </html>
