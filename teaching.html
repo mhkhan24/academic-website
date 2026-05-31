@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teaching & Mentoring | Alex Morgan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="scroll-progress"></div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <button class="sidebar-toggle" aria-label="Toggle Sidebar"><i class="fas fa-bars"></i></button>
+            <a href="index.html" class="nav-brand">Alex Morgan</a>
+            <button class="mobile-menu-toggle" aria-label="Toggle Navigation Menu"><i class="fas fa-ellipsis-v"></i></button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="research.html" class="nav-link">Research</a></li>
+                <li><a href="publications.html" class="nav-link">Publications</a></li>
+                <li><a href="cv.html" class="nav-link">CV</a></li>
+                <li><a href="awards.html" class="nav-link">Awards</a></li>
+                <li><a href="teaching.html" class="nav-link active">Teaching</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="news.html" class="nav-link">News</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><button id="theme-toggle" aria-label="Toggle Dark Mode"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="site-container">
+        <aside class="sidebar">
+            <div class="sidebar-sticky">
+                <div class="profile-container"><div class="profile-img-placeholder"><i class="fas fa-user-graduate"></i></div></div>
+                <h1 class="sidebar-name">Alex Morgan</h1>
+                <p class="sidebar-title">PhD Candidate</p>
+                <hr class="sidebar-divider">
+                <div class="sidebar-info">
+                    <p><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</p>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <section class="content-section fade-in">
+                <h2 class="section-title">Teaching Philosophy</h2>
+                <blockquote>
+                    "True engineering mastery relies on connecting abstract theoretical stability limitations directly to physical embedded constraints."
+                </blockquote>
+                <p>My pedagogical methodology combines rigorous programmatic verification with hands-on exploratory hardware execution. I seek to construct open, low-overhead environments where students can systematically deconstruct machine learning abstractions into concrete deterministic real-world calculations, thereby empowering future academic discovery tracks.</p>
+            </section>
+
+            <section class="content-section fade-in">
+                <h3 class="section-title">Teaching Experience</h3>
+                <div class="table-responsive">
+                    <table class="teaching-table">
+                        <thead>
+                            <tr>
+                                <th>Course Code</th>
+                                <th>Course Title</th>
+                                <th>Semester</th>
+                                <th>Role</th>
+                                <th>Institution</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>CS 5400</strong></td>
+                                <td>Advanced Autonomous Robotics</td>
+                                <td>Spring 2026</td>
+                                <td>Co-Instructor / Lead TA</td>
+                                <td>University of Excellence</td>
+                            </tr>
+                            <tr>
+                                <td><strong>CS 4120</strong></td>
+                                <td>Introduction to Machine Learning</td>
+                                <td>Fall 2025</td>
+                                <td>Graduate Teaching Assistant</td>
+                                <td>University of Excellence</td>
+                            </tr>
+                            <tr>
+                                <td><strong>CS 5400</strong></td>
+                                <td>Advanced Autonomous Robotics</td>
+                                <td>Spring 2025</td>
+                                <td>Graduate Teaching Assistant</td>
+                                <td>University of Excellence</td>
+                            </tr>
+                            <tr>
+                                <td><strong>EE 3200</strong></td>
+                                <td>Embedded Microcontroller Systems</td>
+                                <td>Fall 2024</td>
+                                <td>Lab Instructor</td>
+                                <td>University of Excellence</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="content-section fade-in">
+                <h3 class="section-title">Student Mentoring</h3>
+                <div class="mentor-list">
+                    <p>I feel privileged to actively advise and collaborate with highly talented undergraduate and junior graduate research minds:</p>
+                    <ul>
+                        <li><strong>Sarah Jenkins (Undergraduate Honors, 2024-2025):</strong> Investigated sparse network regularizations. Resulted in a workshop publication at ICML 2024. Currently pursuing a Ph.D. track at MIT.</li>
+                        <li><strong>David Cho (B.S. Thesis Student, 2025):</strong> Modeled custom structural firmware variants for drone coordinate transformations. Now Systems Lead at SkyBound Aerospace.</li>
+                        <li><strong>Liam Alvarez (First-year Ph.D. Rotation, Spring 2026):</strong> Co-developing safety boundary metrics implemented on physical walking quadruped mechanisms within our research center.</li>
+                    </ul>
+            </section>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <p>&copy; <span id="year"></span> Alex Morgan. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

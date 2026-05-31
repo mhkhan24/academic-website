@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info | Alex Morgan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="scroll-progress"></div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <button class="sidebar-toggle" aria-label="Toggle Sidebar"><i class="fas fa-bars"></i></button>
+            <a href="index.html" class="nav-brand">Alex Morgan</a>
+            <button class="mobile-menu-toggle" aria-label="Toggle Navigation Menu"><i class="fas fa-ellipsis-v"></i></button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="research.html" class="nav-link">Research</a></li>
+                <li><a href="publications.html" class="nav-link">Publications</a></li>
+                <li><a href="cv.html" class="nav-link">CV</a></li>
+                <li><a href="awards.html" class="nav-link">Awards</a></li>
+                <li><a href="teaching.html" class="nav-link">Teaching</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="news.html" class="nav-link">News</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                <li><button id="theme-toggle" aria-label="Toggle Dark Mode"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="site-container">
+        <aside class="sidebar">
+            <div class="sidebar-sticky">
+                <div class="profile-container"><div class="profile-img-placeholder"><i class="fas fa-user-graduate"></i></div></div>
+                <h1 class="sidebar-name">Alex Morgan</h1>
+                <p class="sidebar-title">PhD Candidate</p>
+                <hr class="sidebar-divider">
+                <div class="sidebar-info">
+                    <p><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</p>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <section class="content-section fade-in">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-intro">Please reach out if you wish to talk about research collaborations, open-source code integrations, or prospective graduate studies.</p>
+                
+                <div class="contact-three-col">
+                    <div class="contact-col-info">
+                        <h3>Office Details</h3>
+                        <p><strong>Institution:</strong><br>University of Excellence</p>
+                        <p><strong>Department:</strong><br>Computer Science Faculty Cluster</p>
+                        <p><strong>Location:</strong><br>Engineering Hall, Suite 412A<br>Houston, TX, 77004</p>
+                        <p><strong>Email:</strong><br><a href="mailto:alex.morgan@university.edu">alex.morgan@univ.edu</a></p>
+                    </div>
+
+                    <div class="contact-col-form">
+                        <h3>Send a Message</h3>
+                        <form id="contact-form" action="#" method="POST" onsubmit="alert('Placeholder message sent successfully!'); return false;">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" class="form-control" required autocomplete="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" class="form-control" required autocomplete="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" class="form-control" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit Message</button>
+                        </form>
+                    </div>
+
+                    <div class="contact-col-map">
+                        <h3>Campus Location</h3>
+                        <div class="map-placeholder">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <p><strong>Map Visualization</strong><br>University Campus Grid Layer</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <p>&copy; <span id="year"></span> Alex Morgan. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

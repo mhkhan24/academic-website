@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications | Alex Morgan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="scroll-progress"></div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <button class="sidebar-toggle" aria-label="Toggle Sidebar"><i class="fas fa-bars"></i></button>
+            <a href="index.html" class="nav-brand">Alex Morgan</a>
+            <button class="mobile-menu-toggle" aria-label="Toggle Navigation Menu"><i class="fas fa-ellipsis-v"></i></button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="research.html" class="nav-link">Research</a></li>
+                <li><a href="publications.html" class="nav-link active">Publications</a></li>
+                <li><a href="cv.html" class="nav-link">CV</a></li>
+                <li><a href="awards.html" class="nav-link">Awards</a></li>
+                <li><a href="teaching.html" class="nav-link">Teaching</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="news.html" class="nav-link">News</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><button id="theme-toggle" aria-label="Toggle Dark Mode"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="site-container">
+        <aside class="sidebar">
+            <div class="sidebar-sticky">
+                <div class="profile-container"><div class="profile-img-placeholder"><i class="fas fa-user-graduate"></i></div></div>
+                <h1 class="sidebar-name">Alex Morgan</h1>
+                <p class="sidebar-title">PhD Candidate</p>
+                <hr class="sidebar-divider">
+                <div class="sidebar-info">
+                    <p><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:alex.morgan@university.edu">alex.morgan@univ.edu</a></p>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <section class="content-section fade-in">
+                <h2 class="section-title">Publications</h2>
+
+                <div class="search-filter-wrapper">
+                    <input type="text" id="pub-search" class="form-control" placeholder="Search by title, author, or venue...">
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="journal">Journal Articles</button>
+                        <button class="filter-btn" data-filter="conference">Conference Papers</button>
+                        <button class="filter-btn" data-filter="presentation">Presentations</button>
+                        <button class="filter-btn" data-filter="poster">Posters</button>
+                    </div>
+                </div>
+
+                <div class="publications-list" id="publications-container">
+                    <div class="pub-card" data-category="conference" data-year="2026">
+                        <span class="pub-badge badge-conference">Conference</span>
+                        <h4 class="pub-title">Decentralized Swarm Navigation using Latent Space Formations</h4>
+                        <p class="pub-authors"><strong>Alex Morgan</strong>, Evelyn Hawthorne, Marcus Vance</p>
+                        <p class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA), 2026</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link-item"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#" class="pub-link-item"><i class="fas fa-link"></i> DOI</a>
+                            <button class="pub-link-item btn-cite" onclick="toggleBibtex('bib1')"><i class="fas fa-quote-right"></i> Cite / BibTeX</button>
+                        </div>
+                        <pre id="bib1" class="bibtex-block">@inproceedings{morgan2026decentralized,
+  title={Decentralized Swarm Navigation using Latent Space Formations},
+  author={Morgan, Alex and Hawthorne, Evelyn and Vance, Marcus},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2026}
+}</pre>
+                    </div>
+
+                    <div class="pub-card" data-category="journal" data-year="2025">
+                        <span class="pub-badge badge-journal">Journal</span>
+                        <h4 class="pub-title">Asynchronous Safe Reinforcement Learning for Non-Stationary Systems</h4>
+                        <p class="pub-authors"><strong>Alex Morgan</strong>, Evelyn Hawthorne</p>
+                        <p class="pub-venue">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link-item"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#" class="pub-link-item"><i class="fas fa-link"></i> DOI</a>
+                            <button class="pub-link-item btn-cite" onclick="toggleBibtex('bib2')"><i class="fas fa-quote-right"></i> Cite / BibTeX</button>
+                        </div>
+                        <pre id="bib2" class="bibtex-block">@article{morgan2025asynchronous,
+  title={Asynchronous Safe Reinforcement Learning for Non-Stationary Systems},
+  author={Morgan, Alex and Hawthorne, Evelyn},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume={47},
+  number={4},
+  pages={1102--1115},
+  year={2025}
+}</pre>
+                    </div>
+
+                    <div class="pub-card" data-category="presentation" data-year="2026">
+                        <span class="pub-badge badge-presentation">Presentation</span>
+                        <h4 class="pub-title">Runtime Quantization Bounds on Edge Neuromorphic Accelerators</h4>
+                        <p class="pub-authors"><strong>Alex Morgan</strong></p>
+                        <p class="pub-venue">Stanford Artificial Intelligence Laboratory Invited Seminar, 2026</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link-item"><i class="fas fa-file-powerpoint"></i> Slides</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-card" data-category="poster" data-year="2024">
+                        <span class="pub-badge badge-poster">Poster</span>
+                        <h4 class="pub-title">Topological Bounds on Sparse Robust Neural Networks</h4>
+                        <p class="pub-authors">Sarah Jenkins, <strong>Alex Morgan</strong>, Evelyn Hawthorne</p>
+                        <p class="pub-venue">International Conference on Machine Learning (ICML) Workshop, 2024</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link-item"><i class="fas fa-image"></i> Poster PDF</a>
+                            <button class="pub-link-item btn-cite" onclick="toggleBibtex('bib4')"><i class="fas fa-quote-right"></i> Cite</button>
+                        </div>
+                        <pre id="bib4" class="bibtex-block">@inproceedings{jenkins2024topological,
+  title={Topological Bounds on Sparse Robust Neural Networks},
+  author={Jenkins, Sarah and Morgan, Alex and Hawthorne, Evelyn},
+  booktitle={ICML Workshop on Robust Architectures},
+  year={2024}
+}</pre>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <p>&copy; <span id="year"></span> Alex Morgan. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+    <script>
+        function toggleBibtex(id) {
+            const el = document.getElementById(id);
+            if(el.style.display === 'block') {
+                el.style.display = 'none';
+            } else {
+                el.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
