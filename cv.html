@@ -12,24 +12,22 @@
 </head>
 <body>
 
-    <!-- Outer Dual Panel Container (Matches index.html) -->
     <div class="site-container">
         
-        <!-- LEFT PANEL (Identical Light Gray Sidebar across all pages) -->
+        <!-- LEFT PANEL (Light Gray Sidebar) -->
         <aside class="sidebar">
             <div class="profile-container">
-                <!-- Replace with assets/profile.jpg once uploaded -->
                 <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23cccccc'/><text x='50%25' y='55%25' font-size='30' text-anchor='middle' fill='%23ffffff'>Photo</text></svg>" alt="Profile Image">
             </div>
             
-            <h1 class="sidebar-name">Muhammad Haroon Khan[cite: 1]</h1>
+            <h1 class="sidebar-name">Muhammad Haroon Khan</h1>
             
             <ul class="sidebar-info-list">
-                <li><i class="fas fa-map-marker-alt"></i> Houston, TX, USA[cite: 1]</li>
-                <li><i class="fas fa-university"></i> University of Houston[cite: 1]</li>
-                <li><i class="fas fa-envelope"></i> <a href="mailto:haroonkhan1408@gmail.com">haroonkhan1408@gmail.com</a>[cite: 1]</li>
+                <li><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</li>
+                <li><i class="fas fa-university"></i> University of Houston</li>
+                <li><i class="fas fa-envelope"></i> <a href="mailto:haroonkhan1408@gmail.com">haroonkhan1408@gmail.com</a></li>
                 <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
-                <li><i class="fab fa-github"></i> <a href="https://github.com/mhkhan13" target="_blank">GitHub</a>[cite: 1]</li>
+                <li><i class="fab fa-github"></i> <a href="https://github.com/mhkhan13" target="_blank">GitHub</a></li>
                 <li><i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com" target="_blank">Google Scholar</a></li>
                 <li><i class="fab fa-researchgate"></i> <a href="https://researchgate.net" target="_blank">ResearchGate</a></li>
                 <li><i class="fas fa-id-card"></i> <a href="https://orcid.org" target="_blank">ORCID</a></li>
@@ -39,7 +37,6 @@
         <!-- RIGHT PANEL (Main Content Area) -->
         <main class="main-panel-right">
             
-            <!-- Dark Gray Top Inline Navbar -->
             <nav class="navbar-right-block">
                 <ul class="nav-menu-row">
                     <li><a href="index.html" class="nav-link-item">Home</a></li>
@@ -51,120 +48,130 @@
                 </ul>
             </nav>
 
-            <!-- Main Professional Content Block Area -->
             <div class="main-content-area">
                 
-                <!-- PDF Link Bar (Matches kashif's header look) -->
-                <div class="pdf-link-bar" style="margin-bottom: 1.5rem;">
+                <div class="pdf-link-bar" style="margin-bottom: 2rem; font-size: 1.1rem; font-weight: bold;">
                     <span>Here is my updated CV in PDF: </span>
-                    <a href="assets/Muhammad_Haroon_Khan_CV.pdf" target="_blank" aria-label="Download PDF CV">
+                    <a href="assets/Muhammad_Haroon_Khan_CV.pdf" target="_blank">
                         <i class="fas fa-file-pdf" style="color: #cc0000; font-size: 1.4rem; vertical-align: middle; margin-left: 5px;"></i>
                     </a>
                 </div>
 
                 <!-- ================= EDUCATION SECTION ================= -->
                 <section class="content-section">
-                    <h2 class="section-title" style="font-size: 2rem; margin-bottom: 1rem;">Education[cite: 1]</h2>
+                    <h2 class="section-title" style="font-size: 2rem; margin-bottom: 1.5rem; font-family: 'Times New Roman', Times, serif;">Education</h2>
 
                     <!-- Ph.D. Card -->
-                    <div class="cv-wide-card">
-                        <div class="cv-card-logo logo-uh"><i class="fas fa-university"></i></div>
-                        <div class="cv-card-body">
-                            <div class="cv-card-header-row">
-                                <h4>University of Houston[cite: 1]</h4>
-                                <span class="cv-card-meta"><i class="fas fa-map-marker-alt"></i> Houston, TX, USA[cite: 1]</span>
+                    <div class="cv-wide-card" style="display: flex; gap: 1.5rem; border: 1px solid #dddddd; border-radius: 6px; padding: 1.25rem; margin-bottom: 1rem; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                        <div style="width: 54px; height: 54px; background-color: #ffeeef; color: #cc0000; border: 1px solid #ffccd0; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0;">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div style="flex-grow: 1;">
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
+                                <h4 style="font-size: 1.15rem; font-weight: 600; margin: 0;">University of Houston</h4>
+                                <span style="font-size: 0.9rem; color: #666666;"><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</span>
                             </div>
-                            <div class="cv-card-sub-row">
-                                <p class="cv-card-degree">Ph.D. Physics[cite: 1]</p>
-                                <span class="cv-card-meta">Aug 2022 - Present[cite: 1]</span>
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; margin-top: 0.25rem;">
+                                <p style="font-size: 1rem; color: #444444; margin: 0;">Ph.D. Physics</p>
+                                <span style="font-size: 0.9rem; color: #666666; font-weight: 500;">Aug 2022 - Present</span>
                             </div>
                         </div>
                     </div>
 
                     <!-- M.S. Card -->
-                    <div class="cv-wide-card">
-                        <div class="cv-card-logo logo-uh"><i class="fas fa-university"></i></div>
-                        <div class="cv-card-body">
-                            <div class="cv-card-header-row">
-                                <h4>University of Houston[cite: 1]</h4>
-                                <span class="cv-card-meta"><i class="fas fa-map-marker-alt"></i> Houston, TX, USA[cite: 1]</span>
+                    <div class="cv-wide-card" style="display: flex; gap: 1.5rem; border: 1px solid #dddddd; border-radius: 6px; padding: 1.25rem; margin-bottom: 1rem; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                        <div style="width: 54px; height: 54px; background-color: #ffeeef; color: #cc0000; border: 1px solid #ffccd0; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0;">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div style="flex-grow: 1;">
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
+                                <h4 style="font-size: 1.15rem; font-weight: 600; margin: 0;">University of Houston</h4>
+                                <span style="font-size: 0.9rem; color: #666666;"><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</span>
                             </div>
-                            <div class="cv-card-sub-row">
-                                <p class="cv-card-degree">M.S. Physics[cite: 1]</p>
-                                <span class="cv-card-meta">Aug 2022 - Dec 2025[cite: 1]</span>
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; margin-top: 0.25rem;">
+                                <p style="font-size: 1rem; color: #444444; margin: 0;">M.S. Physics</p>
+                                <span style="font-size: 0.9rem; color: #666666; font-weight: 500;">Aug 2022 - Dec 2025</span>
                             </div>
                         </div>
                     </div>
 
                     <!-- M. Phil Card -->
-                    <div class="cv-wide-card">
-                        <div class="cv-card-logo logo-qau"><i class="fas fa-graduation-cap"></i></div>
-                        <div class="cv-card-body">
-                            <div class="cv-card-header-row">
-                                <h4>Quaid-i-Azam University[cite: 1]</h4>
-                                <span class="cv-card-meta"><i class="fas fa-map-marker-alt"></i> Islamabad, Pakistan[cite: 1]</span>
+                    <div class="cv-wide-card" style="display: flex; gap: 1.5rem; border: 1px solid #dddddd; border-radius: 6px; padding: 1.25rem; margin-bottom: 1rem; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                        <div style="width: 54px; height: 54px; background-color: #e0f2fe; color: #0369a1; border: 1px solid #bae6fd; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0;">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div style="flex-grow: 1;">
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
+                                <h4 style="font-size: 1.15rem; font-weight: 600; margin: 0;">Quaid-i-Azam University</h4>
+                                <span style="font-size: 0.9rem; color: #666666;"><i class="fas fa-map-marker-alt"></i> Islamabad, Pakistan</span>
                             </div>
-                            <div class="cv-card-sub-row">
-                                <p class="cv-card-degree">M. Phil Physics[cite: 1]</p>
-                                <span class="cv-card-meta">Feb 2020 - Apr 2022[cite: 1]</span>
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; margin-top: 0.25rem;">
+                                <p style="font-size: 1rem; color: #444444; margin: 0;">M. Phil Physics</p>
+                                <span style="font-size: 0.9rem; color: #666666; font-weight: 500;">Feb 2020 - Apr 2022</span>
                             </div>
                         </div>
                     </div>
 
                     <!-- B.S. Card -->
-                    <div class="cv-wide-card">
-                        <div class="cv-card-logo logo-qau"><i class="fas fa-graduation-cap"></i></div>
-                        <div class="cv-card-body">
-                            <div class="cv-card-header-row">
-                                <h4>Quaid-i-Azam University[cite: 1]</h4>
-                                <span class="cv-card-meta"><i class="fas fa-map-marker-alt"></i> Islamabad, Pakistan[cite: 1]</span>
+                    <div class="cv-wide-card" style="display: flex; gap: 1.5rem; border: 1px solid #dddddd; border-radius: 6px; padding: 1.25rem; margin-bottom: 1rem; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                        <div style="width: 54px; height: 54px; background-color: #e0f2fe; color: #0369a1; border: 1px solid #bae6fd; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0;">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div style="flex-grow: 1;">
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
+                                <h4 style="font-size: 1.15rem; font-weight: 600; margin: 0;">Quaid-i-Azam University</h4>
+                                <span style="font-size: 0.9rem; color: #666666;"><i class="fas fa-map-marker-alt"></i> Islamabad, Pakistan</span>
                             </div>
-                            <div class="cv-card-sub-row">
-                                <p class="cv-card-degree">B.S. Physics[cite: 1]</p>
-                                <span class="cv-card-meta">Sep 2015 - Jan 2020[cite: 1]</span>
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; margin-top: 0.25rem;">
+                                <p style="font-size: 1rem; color: #444444; margin: 0;">B.S. Physics</p>
+                                <span style="font-size: 0.9rem; color: #666666; font-weight: 500;">Sep 2015 - Jan 2020</span>
                             </div>
                         </div>
                     </div>
                 </section>
 
                 <!-- ================= WORK EXPERIENCE SECTION ================= -->
-                <section class="content-section" style="margin-top: 2rem;">
-                    <h2 class="section-title" style="font-size: 2rem; margin-bottom: 1rem;">Work Experience[cite: 1]</h2>
+                <section class="content-section" style="margin-top: 3rem;">
+                    <h2 class="section-title" style="font-size: 2rem; margin-bottom: 1.5rem; font-family: 'Times New Roman', Times, serif;">Work Experience</h2>
 
                     <!-- Graduate Student Researcher Card -->
-                    <div class="cv-wide-card">
-                        <div class="cv-card-logo logo-uh"><i class="fas fa-microchip"></i></div>
-                        <div class="cv-card-body">
-                            <div class="cv-card-header-row">
-                                <h4>Graduate Student Researcher[cite: 1]</h4>
-                                <span class="cv-card-meta"><i class="fas fa-map-marker-alt"></i> Houston, TX, USA[cite: 1]</span>
+                    <div class="cv-wide-card" style="display: flex; gap: 1.5rem; border: 1px solid #dddddd; border-radius: 6px; padding: 1.25rem; margin-bottom: 1rem; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                        <div style="width: 54px; height: 54px; background-color: #ffeeef; color: #cc0000; border: 1px solid #ffccd0; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0;">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <div style="flex-grow: 1;">
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
+                                <h4 style="font-size: 1.15rem; font-weight: 600; margin: 0;">Graduate Student Researcher</h4>
+                                <span style="font-size: 0.9rem; color: #666666;"><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</span>
                             </div>
-                            <div class="cv-card-sub-row">
-                                <p class="cv-card-role">University of Houston | Supervisor: Dr. Shuo Chen[cite: 1]</p>
-                                <span class="cv-card-meta">Aug 2023 - Present[cite: 1]</span>
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; margin-top: 0.25rem;">
+                                <p style="font-size: 1rem; color: #374151; font-weight: 500; margin: 0;">University of Houston | Supervisor: Dr. Shuo Chen</p>
+                                <span style="font-size: 0.9rem; color: #2563eb; font-weight: 600;">Aug 2023 - Present</span>
                             </div>
-                            <div class="cv-card-description">
-                                <p>• Investigating high-performance Mg3Sb2-based thermoelectric materials for low-grade industrial waste heat recovery through transition-metal doping, defect engineering, phase composition optimization and conversion efficiency device fabrication.[cite: 1]</p>
-                                <p>• Characterizing interface defects and microstructural properties of high-temperature superconducting single crystals via advanced TEM techniques, including electron diffraction and energy-dispersive X-ray spectroscopy (EDS).[cite: 1]</p>
-                                <p>• Developing novel, low-cost electrocatalysts for green hydrogen production through electrochemical water-splitting, correlating structural properties via XRD and TEM with catalytic performance and stability in industrial-scale water electrolyzer systems.[cite: 1]</p>
+                            <div style="font-size: 0.95rem; color: #111827; margin-top: 0.75rem; display: flex; flex-direction: column; gap: 0.5rem; line-height: 1.6; text-align: justify;">
+                                <p style="margin: 0;">• Investigating high-performance Mg3Sb2-based thermoelectric materials for low-grade industrial waste heat recovery through transition-metal doping, defect engineering, phase composition optimization and conversion efficiency device fabrication.</p>
+                                <p style="margin: 0;">• Characterizing interface defects and microstructural properties of high-temperature superconducting single crystals via advanced TEM techniques, including electron diffraction and energy-dispersive X-ray spectroscopy (EDS).</p>
+                                <p style="margin: 0;">• Developing novel, low-cost electrocatalysts for green hydrogen production through electrochemical water-splitting, correlating structural properties via XRD and TEM with catalytic performance and stability in industrial-scale water electrolyzer systems.</p>
                             </div>
                         </div>
                     </div>
 
                     <!-- TA Card -->
-                    <div class="cv-wide-card">
-                        <div class="cv-card-logo logo-uh"><i class="fas fa-chalkboard-teacher"></i></div>
-                        <div class="cv-card-body">
-                            <div class="cv-card-header-row">
-                                <h4>Teaching Assistant[cite: 1]</h4>
-                                <span class="cv-card-meta"><i class="fas fa-map-marker-alt"></i> Houston, TX, USA[cite: 1]</span>
+                    <div class="cv-wide-card" style="display: flex; gap: 1.5rem; border: 1px solid #dddddd; border-radius: 6px; padding: 1.25rem; margin-bottom: 1rem; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                        <div style="width: 54px; height: 54px; background-color: #ffeeef; color: #cc0000; border: 1px solid #ffccd0; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0;">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div style="flex-grow: 1;">
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
+                                <h4 style="font-size: 1.15rem; font-weight: 600; margin: 0;">Teaching Assistant</h4>
+                                <span style="font-size: 0.9rem; color: #666666;"><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</span>
                             </div>
-                            <div class="cv-card-sub-row">
-                                <p class="cv-card-role">Teaching Assistant in College Physics Lab 1[cite: 1]</p>
-                                <span class="cv-card-meta">Fall 2024[cite: 1]</span>
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; margin-top: 0.25rem;">
+                                <p style="font-size: 1rem; color: #374151; font-weight: 500; margin: 0;">College Physics Lab 1</p>
+                                <span style="font-size: 0.9rem; color: #2563eb; font-weight: 600;">Fall 2024</span>
                             </div>
-                            <div class="cv-card-description">
-                                <p>• Demonstrated students with their weekly lab experiments, conducted weekly office hours, class lab report grading, as well as exams grading.[cite: 1]</p>
+                            <div style="font-size: 0.95rem; color: #111827; margin-top: 0.5rem; line-height: 1.6;">
+                                <p style="margin: 0;">• Coached students with their weekly lab experiments, conducted informative office hours, handled grading tasks for comprehensive laboratory technical files, performance reports, and examinations.</p>
                             </div>
                         </div>
                     </div>
