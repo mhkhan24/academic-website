@@ -3,150 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications | Alex Morgan</title>
+    <title>Muhammad Haroon Khan | Publications</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div id="scroll-progress"></div>
-    <nav class="navbar">
-        <div class="nav-container">
-            <button class="sidebar-toggle" aria-label="Toggle Sidebar"><i class="fas fa-bars"></i></button>
-            <a href="index.html" class="nav-brand">Alex Morgan</a>
-            <button class="mobile-menu-toggle" aria-label="Toggle Navigation Menu"><i class="fas fa-ellipsis-v"></i></button>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="research.html" class="nav-link">Research</a></li>
-                <li><a href="publications.html" class="nav-link active">Publications</a></li>
-                <li><a href="cv.html" class="nav-link">CV</a></li>
-                <li><a href="awards.html" class="nav-link">Awards</a></li>
-                <li><a href="teaching.html" class="nav-link">Teaching</a></li>
-                <li><a href="projects.html" class="nav-link">Projects</a></li>
-                <li><a href="news.html" class="nav-link">News</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
-                <li><button id="theme-toggle" aria-label="Toggle Dark Mode"><i class="fas fa-moon"></i></button></li>
-            </ul>
-        </div>
-    </nav>
 
     <div class="site-container">
+        
         <aside class="sidebar">
-            <div class="sidebar-sticky">
-                <div class="profile-container"><div class="profile-img-placeholder"><i class="fas fa-user-graduate"></i></div></div>
-                <h1 class="sidebar-name">Alex Morgan</h1>
-                <p class="sidebar-title">PhD Candidate</p>
-                <hr class="sidebar-divider">
-                <div class="sidebar-info">
-                    <p><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</p>
-                    <p><i class="fas fa-envelope"></i> <a href="mailto:alex.morgan@university.edu">alex.morgan@univ.edu</a></p>
-                </div>
+            <div class="profile-container" style="width: 150px; height: 150px; margin-bottom: 1.5rem; overflow: hidden; border-radius: 50%;">
+                <img src="assets/profile.png" alt="Profile" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
             </div>
+            
+            <h1 class="sidebar-name">Muhammad Haroon Khan</h1>
+            
+            <ul class="sidebar-info-list">
+                <li><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</li>
+                <li><i class="fas fa-university"></i> University of Houston</li>
+                <li><i class="fas fa-envelope"></i> <a href="mailto:mhkhan2@cougarnet.uh.edu">mhkhan13@uh.edu</a></li>
+                <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                <li><i class="fab fa-github"></i> <a href="https://github.com/mhkhan13" target="_blank">GitHub</a></li>
+                <li><i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com" target="_blank">Google Scholar</a></li>
+                <li><i class="fab fa-researchgate"></i> <a href="https://researchgate.net" target="_blank">ResearchGate</a></li>
+                <li><i class="fas fa-id-card"></i> <a href="https://orcid.org" target="_blank">ORCID</a></li>
+            </ul>
         </aside>
 
-        <main class="main-content">
-            <section class="content-section fade-in">
-                <h2 class="section-title">Publications</h2>
+        <main class="main-panel-right">
+            
+            <nav class="navbar-right-block">
+                <ul class="nav-menu-row">
+                    <li><a href="index.html" class="nav-link-item">Home</a></li>
+                    <li><a href="research.html" class="nav-link-item">Research Areas</a></li>
+                    <li><a href="publications.html" class="nav-link-item active">Publications</a></li>
+                    <li><a href="cv.html" class="nav-link-item">CV</a></li>
+                    <li><a href="awards.html" class="nav-link-item">Awards & Honors</a></li>
+                    <li><a href="teaching.html" class="nav-link-item">Teaching</a></li>
+                </ul>
+            </nav>
 
-                <div class="search-filter-wrapper">
-                    <input type="text" id="pub-search" class="form-control" placeholder="Search by title, author, or venue...">
-                    <div class="filter-buttons">
-                        <button class="filter-btn active" data-filter="all">All</button>
-                        <button class="filter-btn" data-filter="journal">Journal Articles</button>
-                        <button class="filter-btn" data-filter="conference">Conference Papers</button>
-                        <button class="filter-btn" data-filter="presentation">Presentations</button>
-                        <button class="filter-btn" data-filter="poster">Posters</button>
-                    </div>
-                </div>
+            <div class="main-content-area">
+                <section class="content-section">
+                    <h2 class="section-title" style="font-family: 'Times New Roman', Times, serif; font-size: 2.2rem; margin-bottom: 1.5rem;">Publications</h2>
+                    
+                    <p style="font-size: 0.95rem; color: #555555; margin-bottom: 2rem; border-bottom: 1px dashed #dddddd; padding-bottom: 1rem;">
+                        Publications can also be accessed directly on my <a href="https://scholar.google.com" target="_blank" style="color: #2563eb; text-decoration: underline; font-weight: 500;">Google Scholar Profile</a>.
+                    </p>
 
-                <div class="publications-list" id="publications-container">
-                    <div class="pub-card" data-category="conference" data-year="2026">
-                        <span class="pub-badge badge-conference">Conference</span>
-                        <h4 class="pub-title">Decentralized Swarm Navigation using Latent Space Formations</h4>
-                        <p class="pub-authors"><strong>Alex Morgan</strong>, Evelyn Hawthorne, Marcus Vance</p>
-                        <p class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA), 2026</p>
-                        <div class="pub-links">
-                            <a href="#" class="pub-link-item"><i class="fas fa-file-pdf"></i> PDF</a>
-                            <a href="#" class="pub-link-item"><i class="fas fa-link"></i> DOI</a>
-                            <button class="pub-link-item btn-cite" onclick="toggleBibtex('bib1')"><i class="fas fa-quote-right"></i> Cite / BibTeX</button>
-                        </div>
-                        <pre id="bib1" class="bibtex-block">@inproceedings{morgan2026decentralized,
-  title={Decentralized Swarm Navigation using Latent Space Formations},
-  author={Morgan, Alex and Hawthorne, Evelyn and Vance, Marcus},
-  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
-  year={2026}
-}</pre>
-                    </div>
-
-                    <div class="pub-card" data-category="journal" data-year="2025">
-                        <span class="pub-badge badge-journal">Journal</span>
-                        <h4 class="pub-title">Asynchronous Safe Reinforcement Learning for Non-Stationary Systems</h4>
-                        <p class="pub-authors"><strong>Alex Morgan</strong>, Evelyn Hawthorne</p>
-                        <p class="pub-venue">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025</p>
-                        <div class="pub-links">
-                            <a href="#" class="pub-link-item"><i class="fas fa-file-pdf"></i> PDF</a>
-                            <a href="#" class="pub-link-item"><i class="fas fa-link"></i> DOI</a>
-                            <button class="pub-link-item btn-cite" onclick="toggleBibtex('bib2')"><i class="fas fa-quote-right"></i> Cite / BibTeX</button>
-                        </div>
-                        <pre id="bib2" class="bibtex-block">@article{morgan2025asynchronous,
-  title={Asynchronous Safe Reinforcement Learning for Non-Stationary Systems},
-  author={Morgan, Alex and Hawthorne, Evelyn},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  volume={47},
-  number={4},
-  pages={1102--1115},
-  year={2025}
-}</pre>
+                    <div class="cv-wide-card" style="border: 1px solid #dddddd; border-radius: 6px; padding: 1.25rem; margin-bottom: 1rem; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                        <h4 style="font-size: 1.15rem; font-weight: 600; color: #000000; margin-bottom: 0.35rem; line-height: 1.4;">
+                            Phase Segregation in High Mn-doped Mg<sub>3</sub>SbBi Based Thermoelectrics
+                        </h4>
+                        <p style="font-size: 0.95rem; color: #333333; margin-bottom: 0.35rem;">
+                            <strong>Muhammad Haroon Khan</strong>, Rui Shu, and Shuo Chen
+                        </p>
+                        <p style="font-size: 0.9rem; color: #2563eb; font-weight: 500; margin: 0;">
+                            <span style="font-style: italic;">ACS Applied Energy Materials</span>, 2025.
+                        </p>
                     </div>
 
-                    <div class="pub-card" data-category="presentation" data-year="2026">
-                        <span class="pub-badge badge-presentation">Presentation</span>
-                        <h4 class="pub-title">Runtime Quantization Bounds on Edge Neuromorphic Accelerators</h4>
-                        <p class="pub-authors"><strong>Alex Morgan</strong></p>
-                        <p class="pub-venue">Stanford Artificial Intelligence Laboratory Invited Seminar, 2026</p>
-                        <div class="pub-links">
-                            <a href="#" class="pub-link-item"><i class="fas fa-file-powerpoint"></i> Slides</a>
-                        </div>
+                    <div class="cv-wide-card" style="border: 1px solid #dddddd; border-radius: 6px; padding: 1.25rem; margin-bottom: 1rem; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                        <h4 style="font-size: 1.15rem; font-weight: 600; color: #000000; margin-bottom: 0.35rem; line-height: 1.4;">
+                            Correlation between the composition, phase, band structure, ferroelectric and leakage responses of Bi<sub>1-x</sub>Ba<sub>x</sub>Fe<sub>1-y</sub>Ti<sub>y</sub>O<sub>3</sub> thin films
+                        </h4>
+                        <p style="font-size: 0.95rem; color: #333333; margin-bottom: 0.35rem;">
+                            Fiza Mumtaz, <strong>Muhammad Haroon Khan</strong>, and G. Hassnain Jaffari
+                        </p>
+                        <p style="font-size: 0.9rem; color: #2563eb; font-weight: 500; margin: 0;">
+                            <span style="font-style: italic;">Thin Solid Films</span>, 2022.
+                        </p>
                     </div>
 
-                    <div class="pub-card" data-category="poster" data-year="2024">
-                        <span class="pub-badge badge-poster">Poster</span>
-                        <h4 class="pub-title">Topological Bounds on Sparse Robust Neural Networks</h4>
-                        <p class="pub-authors">Sarah Jenkins, <strong>Alex Morgan</strong>, Evelyn Hawthorne</p>
-                        <p class="pub-venue">International Conference on Machine Learning (ICML) Workshop, 2024</p>
-                        <div class="pub-links">
-                            <a href="#" class="pub-link-item"><i class="fas fa-image"></i> Poster PDF</a>
-                            <button class="pub-link-item btn-cite" onclick="toggleBibtex('bib4')"><i class="fas fa-quote-right"></i> Cite</button>
-                        </div>
-                        <pre id="bib4" class="bibtex-block">@inproceedings{jenkins2024topological,
-  title={Topological Bounds on Sparse Robust Neural Networks},
-  author={Jenkins, Sarah and Morgan, Alex and Hawthorne, Evelyn},
-  booktitle={ICML Workshop on Robust Architectures},
-  year={2024}
-}</pre>
+                    <div class="cv-wide-card" style="border: 1px solid #dddddd; border-radius: 6px; padding: 1.25rem; margin-bottom: 1rem; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                        <h4 style="font-size: 1.15rem; font-weight: 600; color: #000000; margin-bottom: 0.35rem; line-height: 1.4;">
+                            Transmission Electron Microscopy Study of High T<sub>c</sub> Hg-1223 Superconducting Materials
+                        </h4>
+                        <p style="font-size: 0.95rem; color: #333333; margin-bottom: 0.35rem;">
+                            <strong>Muhammad Haroon Khan</strong>, L. Deng, S. Chen, et al.
+                        </p>
+                        <p style="font-size: 0.9rem; color: #666666; font-weight: 500; margin: 0; font-style: italic;">
+                            Manuscript in preparation.
+                        </p>
                     </div>
-                </div>
-            </section>
+
+                    <div class="cv-wide-card" style="border: 1px solid #dddddd; border-radius: 6px; padding: 1.25rem; margin-bottom: 1rem; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                        <h4 style="font-size: 1.15rem; font-weight: 600; color: #000000; margin-bottom: 0.35rem; line-height: 1.4;">
+                            Synergistic Sulfur-Selenium Co-Doping of NiFe LDH Enhanced Oxygen Evolution
+                        </h4>
+                        <p style="font-size: 0.95rem; color: #333333; margin-bottom: 0.35rem;">
+                            P. Byaruhanga, <strong>Muhammad Haroon Khan</strong>, S. Chen, et al.
+                        </p>
+                        <p style="font-size: 0.9rem; color: #666666; font-weight: 500; margin: 0; font-style: italic;">
+                            Manuscript in preparation.
+                        </p>
+                    </div>
+
+                    <div class="cv-wide-card" style="border: 1px solid #dddddd; border-radius: 6px; padding: 1.25rem; margin-bottom: 1rem; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                        <h4 style="font-size: 1.15rem; font-weight: 600; color: #000000; margin-bottom: 0.35rem; line-height: 1.4;">
+                            Role of Phase Purity in Mg<sub>3-x</sub>Mn<sub>x</sub>(Sb,Bi)<sub>2</sub> Thermoelectric Materials
+                        </h4>
+                        <p style="font-size: 0.95rem; color: #333333; margin-bottom: 0.35rem;">
+                            <strong>Muhammad Haroon Khan</strong> and Shuo Chen
+                        </p>
+                        <p style="font-size: 0.9rem; color: #e11d48; font-weight: 500; margin: 0;">
+                            <span style="font-weight:600;">Oral Presentation</span> — The 42nd International Conference on Thermoelectrics 2026, Houston, TX.
+                        </p>
+                    </div>
+
+                    <div class="cv-wide-card" style="border: 1px solid #dddddd; border-radius: 6px; padding: 1.25rem; margin-bottom: 1rem; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                        <h4 style="font-size: 1.15rem; font-weight: 600; color: #000000; margin-bottom: 0.35rem; line-height: 1.4;">
+                            Phase segregation in high Mn-doped Mg3SbBi thermoelectric materials
+                        </h4>
+                        <p style="font-size: 0.95rem; color: #333333; margin-bottom: 0.35rem;">
+                            <strong>Muhammad Haroon Khan</strong>, Rui Shu, and Shuo Chen
+                        </p>
+                        <p style="font-size: 0.9rem; color: #e11d48; font-weight: 500; margin: 0;">
+                            <span style="font-weight:600;">Presentation</span> — American Physical Society & TSAAPT Joint Spring Meeting (2025).
+                        </p>
+                    </div>
+
+                    <div class="cv-wide-card" style="border: 1px solid #dddddd; border-radius: 6px; padding: 1.25rem; margin-bottom: 1rem; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                        <h4 style="font-size: 1.15rem; font-weight: 600; color: #000000; margin-bottom: 0.35rem; line-height: 1.4;">
+                            Investigating Effect of Dual Doping S and Se on NiFe Layered Double Hydroxide Catalyst for Oxygen Evolution Reaction
+                        </h4>
+                        <p style="font-size: 0.95rem; color: #333333; margin-bottom: 0.35rem;">
+                            Paul Byaruhanga, <strong>Muhammad Haroon Khan</strong>, and Shuo Chen
+                        </p>
+                        <p style="font-size: 0.9rem; color: #e11d48; font-weight: 500; margin: 0;">
+                            <span style="font-weight:600;">Presentation</span> — Electrochemical Society Meeting (2025).
+                        </p>
+                    </div>
+                </section>
+            </div>
         </main>
     </div>
 
-    <footer class="site-footer">
-        <div class="footer-container">
-            <p>&copy; <span id="year"></span> Alex Morgan. All Rights Reserved.</p>
-        </div>
-    </footer>
-    <script src="assets/js/script.js"></script>
-    <script>
-        function toggleBibtex(id) {
-            const el = document.getElementById(id);
-            if(el.style.display === 'block') {
-                el.style.display = 'none';
-            } else {
-                el.style.display = 'block';
-            }
-        }
-    </script>
 </body>
 </html>
