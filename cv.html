@@ -14,7 +14,6 @@
     <div id="scroll-progress"></div>
     <nav class="navbar">
         <div class="nav-container">
-            <button class="sidebar-toggle" aria-label="Toggle Sidebar"><i class="fas fa-bars"></i></button>
             <a href="index.html" class="nav-brand">Muhammad Haroon Khan</a>
             <ul class="nav-menu">
                 <li><a href="index.html" class="nav-link">Home</a></li>
@@ -29,116 +28,132 @@
         </div>
     </nav>
 
-    <div class="site-container">
-        <aside class="sidebar">
-            <div class="sidebar-sticky">
-                <div class="profile-container"><div class="profile-img-placeholder"><i class="fas fa-user-graduate"></i></div></div>
-                <h1 class="sidebar-name">Muhammad Haroon Khan</h1>
-                <p class="sidebar-title">PhD Candidate</p>
-                <p class="sidebar-org">Department of Physics</p>
-                <p class="sidebar-univ">University of Houston</p>
-                <hr class="sidebar-divider">
-                <div class="sidebar-info">
-                    <p><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</p>
-                    <p><i class="fas fa-envelope"></i> <a href="mailto:haroonkhan1408@gmail.com">haroonkhan1408@gmail.com</a></p>
-                </div>
+    <!-- Full-Width Container to mirror image_7a811d.png -->
+    <div class="cv-wide-container">
+        <main class="cv-wide-content">
+            
+            <!-- Top PDF Link Bar matching image_7a811d.png -->
+            <div class="pdf-link-bar fade-in">
+                <span>Here is my updated CV in PDF: </span>
+                <a href="assets/Muhammad_Haroon_Khan_CV.pdf" target="_blank" aria-label="Download PDF CV">
+                    <i class="fas fa-file-pdf" style="color: #cc0000; font-size: 1.4rem; vertical-align: middle; margin-left: 5px;"></i>
+                </a>
             </div>
-        </aside>
 
-        <main class="main-content">
-            <section class="content-section fade-in">
-                <div class="cv-header-actions">
-                    <h2 class="section-title">Curriculum Vitae</h2>
-                    <div class="cv-buttons">
-                        <button class="btn btn-primary" onclick="window.print()"><i class="fas fa-print"></i> Print CV</button>
-                        <a href="assets/Muhammad_Haroon_Khan_CV.pdf" target="_blank" class="btn btn-secondary"><i class="fas fa-download"></i> Download PDF</a>
-                    </div>
-                </div>
+            <!-- ================= EDUCATION SECTION ================= -->
+            <section class="cv-wide-section fade-in">
+                <h2 class="cv-wide-title">Education</h2>
 
-                <!-- Education Section -->
-                <div class="cv-section">
-                    <h3 class="cv-section-title"><i class="fas fa-graduation-cap"></i> Education</h3>
-                    <div class="cv-entry">
-                        <div class="cv-entry-meta">
-                            <span class="cv-entry-date">Aug 2022 — Present</span>
-                            <span class="cv-entry-loc">Houston, TX</span>
+                <!-- Ph.D. Card -->
+                <div class="cv-wide-card">
+                    <div class="cv-card-logo logo-uh"><i class="fas fa-university"></i></div>
+                    <div class="cv-card-body">
+                        <div class="cv-card-header-row">
+                            <h4>University of Houston</h4>
+                            <span class="cv-card-meta"><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</span>
                         </div>
-                        <div class="cv-entry-content">
-                            <h4>Ph.D. in Physics</h4>
-                            <p class="cv-entry-sub">University of Houston</p>
-                        </div>
-                    </div>
-                    <div class="cv-entry">
-                        <div class="cv-entry-meta">
-                            <span class="cv-entry-date">Aug 2022 — Dec 2025</span>
-                            <span class="cv-entry-loc">Houston, TX</span>
-                        </div>
-                        <div class="cv-entry-content">
-                            <h4>M.S. in Physics</h4>
-                            <p class="cv-entry-sub">University of Houston</p>
-                        </div>
-                    </div>
-                    <div class="cv-entry">
-                        <div class="cv-entry-meta">
-                            <span class="cv-entry-date">Feb 2020 — Apr 2022</span>
-                            <span class="cv-entry-loc">Islamabad, Pakistan</span>
-                        </div>
-                        <div class="cv-entry-content">
-                            <h4>M. Phil in Physics</h4>
-                            <p class="cv-entry-sub">Quaid-i-Azam University</p>
-                        </div>
-                    </div>
-                    <div class="cv-entry">
-                        <div class="cv-entry-meta">
-                            <span class="cv-entry-date">Sep 2015 — Jan 2020</span>
-                            <span class="cv-entry-loc">Islamabad, Pakistan</span>
-                        </div>
-                        <div class="cv-entry-content">
-                            <h4>B.S. in Physics</h4>
-                            <p class="cv-entry-sub">Quaid-i-Azam University</p>
+                        <div class="cv-card-sub-row">
+                            <p class="cv-card-degree">Ph.D. in Physics</p>
+                            <span class="cv-card-meta">Aug 2022 — Present</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Research Experience Section -->
-                <div class="cv-section">
-                    <h3 class="cv-section-title"><i class="fas fa-microchip"></i> Research Experience</h3>
-                    <div class="cv-entry">
-                        <div class="cv-entry-meta">
-                            <span class="cv-entry-date">Aug 2023 — Present</span>
+                <!-- M.S. Card -->
+                <div class="cv-wide-card">
+                    <div class="cv-card-logo logo-uh"><i class="fas fa-university"></i></div>
+                    <div class="cv-card-body">
+                        <div class="cv-card-header-row">
+                            <h4>University of Houston</h4>
+                            <span class="cv-card-meta"><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</span>
                         </div>
-                        <div class="cv-entry-content">
-                            <h4>Graduate Student Researcher</h4>
-                            <p class="cv-entry-sub">University of Houston | Advisor: Dr. Shuo Chen</p>
-                            <p class="cv-entry-details">
-                                • Investigating high-performance $Mg_3Sb_2$-based thermoelectric materials for low-grade industrial waste heat recovery through transition-metal doping, defect engineering, phase composition optimization, and conversion efficiency device fabrication.<br>
-                                • Characterizing interface defects and microstructural properties of high-temperature superconducting single crystals via advanced TEM techniques, including electron diffraction and energy-dispersive X-ray spectroscopy (EDS).<br>
-                                • Developing novel, low-cost electrocatalysts for green hydrogen production through electrochemical water-splitting, correlating structural properties via XRD and TEM with catalytic performance and stability in industrial-scale water electrolyzer systems.
-                            </p>
+                        <div class="cv-card-sub-row">
+                            <p class="cv-card-degree">M.S. in Physics</p>
+                            <span class="cv-card-meta">Aug 2022 — Dec 2025</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Honors and Awards Section -->
-                <div class="cv-section">
-                    <h3 class="cv-section-title"><i class="fas fa-award"></i> Honors & Awards</h3>
-                    <p style="margin-bottom: 0.5rem;">• <strong>TcSUH Graduate Student Travel Support Award</strong> — Texas Center for Superconductivity (2026—2027)</p>
-                    <p style="margin-bottom: 0.5rem;">• <strong>Winner of the Best Presentation Award</strong> — Experimental Condensed Matter Session, University of Houston Research Day (2025)</p>
-                    <p style="margin-bottom: 0.5rem;">• <strong>Graduate Research Assistantship</strong> — Higher Education Commission of Pakistan (2022—2027)</p>
-                    <p style="margin-bottom: 0.5rem;">• <strong>Departmental Fellowship</strong> — For outstanding grades in M. Phil coursework, Quaid-i-Azam University (2022)</p>
+                <!-- M. Phil Card -->
+                <div class="cv-wide-card">
+                    <div class="cv-card-logo logo-qau"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="cv-card-body">
+                        <div class="cv-card-header-row">
+                            <h4>Quaid-i-Azam University</h4>
+                            <span class="cv-card-meta"><i class="fas fa-map-marker-alt"></i> Islamabad, Pakistan</span>
+                        </div>
+                        <div class="cv-card-sub-row">
+                            <p class="cv-card-degree">M. Phil in Physics</p>
+                            <span class="cv-card-meta">Feb 2020 — Apr 2022</span>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- Leadership and Volunteering Section -->
-                <div class="cv-section">
-                    <h3 class="cv-section-title"><i class="fas fa-users"></i> Leadership & Volunteering</h3>
-                    <p style="margin-bottom: 0.5rem;">• <strong>TEX-E Fellow</strong> — TEX-E (2026—2027)</p>
-                    <p style="margin-bottom: 0.5rem;">• <strong>Assistant Session Chair</strong> — International Thermoelectric Conference 2026, Houston (May 17-21, 2026)</p>
-                    <p style="margin-bottom: 0.5rem;">• <strong>Vice Chair of Mentorship Committee</strong> — UH Energy Coalition (Fall 2025—Present)</p>
-                    <p style="margin-bottom: 0.5rem;">• <strong>Vice Chair of Sustainability Committee</strong> — UH Energy Coalition (Spring 2025)</p>
-                    <p style="margin-bottom: 0.5rem;">• <strong>NSM Graduate Student Council Representative</strong> — Department of Physics, University of Houston (2024—2025)</p>
-                    <p style="margin-bottom: 0.5rem;">• <strong>Judge (Physics & Astronomy)</strong> — Science & Engineering Fair Houston (2022—2026)</p>
+                <!-- B.S. Card -->
+                <div class="cv-wide-card">
+                    <div class="cv-card-logo logo-qau"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="cv-card-body">
+                        <div class="cv-card-header-row">
+                            <h4>Quaid-i-Azam University</h4>
+                            <span class="cv-card-meta"><i class="fas fa-map-marker-alt"></i> Islamabad, Pakistan</span>
+                        </div>
+                        <div class="cv-card-sub-row">
+                            <p class="cv-card-degree">B.S. in Physics</p>
+                            <span class="cv-card-meta">Sep 2015 — Jan 2020</span>
+                        </div>
+                    </div>
                 </div>
             </section>
+
+            <!-- ================= WORK EXPERIENCE SECTION ================= -->
+            <section class="cv-wide-section fade-in" style="margin-top: 3rem;">
+                <h2 class="cv-wide-title">Work Experience</h2>
+
+                <!-- Research Card -->
+                <div class="cv-wide-card">
+                    <div class="cv-card-logo logo-uh"><i class="fas fa-microchip"></i></div>
+                    <div class="cv-card-body">
+                        <div class="cv-card-header-row">
+                            <h4>Graduate Student Researcher</h4>
+                            <span class="cv-card-meta"><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</span>
+                        </div>
+                        <div class="cv-card-sub-row">
+                            <p class="cv-card-role">Department of Physics | Supervisor: Dr. Shuo Chen</p>
+                            <span class="cv-card-meta"><i class="fas fa-building"></i> University of Houston</span>
+                        </div>
+                        <div class="cv-card-description">
+                            <p>• Investigating high-performance $Mg_3Sb_2$-based thermoelectric materials for low-grade industrial waste heat recovery through transition-metal doping, defect engineering, phase composition optimization, and conversion efficiency device fabrication.</p>
+                            <p>• Characterizing interface defects and microstructural properties of high-temperature superconducting single crystals via advanced TEM techniques, including electron diffraction and energy-dispersive X-ray spectroscopy (EDS).</p>
+                            <p>• Developing novel, low-cost electrocatalysts for green hydrogen production through electrochemical water-splitting, correlating structural properties via XRD and TEM with catalytic performance and stability in industrial-scale water electrolyzer systems.</p>
+                        </div>
+                        <div class="cv-card-sub-row" style="margin-top: 0.5rem; border-top: 1px dashed var(--border-color); padding-top: 0.5rem;">
+                            <span class="cv-card-meta" style="color: var(--accent-color); font-weight: 500;">Aug 2023 — Present</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TA Card -->
+                <div class="cv-wide-card">
+                    <div class="cv-card-logo logo-uh"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <div class="cv-card-body">
+                        <div class="cv-card-header-row">
+                            <h4>Teaching Assistant</h4>
+                            <span class="cv-card-meta"><i class="fas fa-map-marker-alt"></i> Houston, TX, USA</span>
+                        </div>
+                        <div class="cv-card-sub-row">
+                            <p class="cv-card-role">College Physics Lab 1</p>
+                            <span class="cv-card-meta"><i class="fas fa-building"></i> University of Houston</span>
+                        </div>
+                        <div class="cv-card-description">
+                            <p>• Guided students through weekly experimental physics setups, handled laboratory metric validation, conducted targeted office hours, and evaluated comprehensive analytical lab portfolios and examinations.</p>
+                        </div>
+                        <div class="cv-card-sub-row" style="margin-top: 0.5rem; border-top: 1px dashed var(--border-color); padding-top: 0.5rem;">
+                            <span class="cv-card-meta" style="color: var(--accent-color); font-weight: 500;">Fall 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
         </main>
     </div>
 
